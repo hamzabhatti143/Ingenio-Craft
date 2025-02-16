@@ -20,7 +20,7 @@ const Ansys = () => {
         At IngenioCraft, we specialize in providing Ansys-based simulation solutions to 
         help businesses and industries achieve accurate, reliable, and efficient designs. 
         Our expertise in <strong>Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD)</strong> 
-        allows us to analyze, optimize, and enhance the performance of complex engineering systems.
+        allows us to analyze, optimize , and enhance the performance of complex engineering systems.
         
         <br /><br /><strong className='text-2xl font-bold'>Our Ansys Simulation Services</strong>
         <br /><br /><strong className='text-xl font-bold'>1. Finite Element Analysis (FEA) with Ansys</strong>
