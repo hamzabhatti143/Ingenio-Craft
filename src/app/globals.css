@@ -25,3 +25,34 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes name {
+  40%{
+      background-image: url(/images/autocad1.PNG);
+  }
+  50%{
+    background-image: url(/images/cfd1.PNG);
+}
+}
+@keyframes test {
+  30%{
+      content: 'AutoCad';
+  }
+  70%{
+      content: 'CFD';
+  }
+}
+.image{
+  animation: name 13s infinite;
+  width: 70%;
+  height: auto;
+  background-image: url(/images/ansys1.PNG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.7;
+}
+.main .span:after{
+  content: 'Ansys';
+  animation: test 15s infinite;
+  font-size: 45px;
+}
