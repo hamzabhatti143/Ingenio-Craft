@@ -24,7 +24,7 @@ const ServiceCards = () => {
         <div className='w-full md:w-1/3 hover:scale-110 space-y-4 
         border-2 border-yellow-500 rounded-xl hover:bg-gray-800 hover:text-white p-6 cursor-pointer'>
         <Link href={"/autocad"}>
-        <h2 className='font-bold text-2xl'>AutoCAD Designing Services</h2>
+        <h2 className='font-bold text-2xl'>AutoCAD Design & Drafting Services</h2>
         <p className='text-lg font-medium text-justify'>Auto CAD is the specialty of the ultra-sophisticated 2D&3D model that is tailored to architectural blueprints and mechanical designs.</p></Link>
         </div>
 
