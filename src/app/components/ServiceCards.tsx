@@ -16,29 +16,23 @@ const ServiceCards = () => {
       gap-6'>
         <div className='w-full md:w-1/3 hover:scale-110 space-y-4 
         border-2 border-yellow-500 rounded-xl hover:bg-gray-800 hover:text-white p-6 cursor-pointer'>
-        <Link href={"/"}>
+        <Link href={"/ansys"}>
         <h2 className='font-bold text-2xl'>Finite Element Analysis (FEA) with Ansys</h2>
-        <p className='text-lg font-medium text-justify'>Optimize your designs with precise structural analysis. 
-            Our FEA simulations help identify stress points, reduce material waste, 
-            and enhance product durability for efficient engineering solutions.</p></Link>
+        <p className='text-lg font-medium text-justify'>Incorporation of Active Design (CAD) in the sport of architecture has shown to improve spatial geometry and in turn help in ease of design development..</p></Link>
         </div>
 
         <div className='w-full md:w-1/3 hover:scale-110 space-y-4 
         border-2 border-yellow-500 rounded-xl hover:bg-gray-800 hover:text-white p-6 cursor-pointer'>
-        <Link href={"/"}>
-        <h2 className='font-bold text-2xl'>AutoCAD Design & Drafting Services</h2>
-        <p className='text-lg font-medium text-justify'>Create precise 2D and 3D models with our 
-            expert AutoCAD drafting solutions. From architectural blueprints to mechanical designs, we
-             deliver accurate and optimized drawings for your engineering needs.</p></Link>
+        <Link href={"/autocad"}>
+        <h2 className='font-bold text-2xl'>AutoCAD Designing Services</h2>
+        <p className='text-lg font-medium text-justify'>Auto CAD is the specialty of the ultra-sophisticated 2D&3D model that is tailored to architectural blueprints and mechanical designs.</p></Link>
         </div>
 
         <div className='w-full md:w-1/3 hover:scale-110 space-y-4 
         border-2 border-yellow-500 rounded-xl hover:bg-gray-800 hover:text-white p-6 cursor-pointer'>
-        <Link href={"/"}>
+        <Link href={"/cfd"}>
         <h2 className='font-bold text-2xl'>CFD Simulation & Analysis Services</h2>
-        <p className='text-lg font-medium text-justify'>Optimize fluid flow and heat transfer with our 
-            advanced CFD simulations. We analyze velocity, pressure distribution, and turbulence effects 
-            to enhance performance in automotive, HVAC, and industrial applications.</p></Link>
+        <p className='text-lg font-medium text-justify'>CFD simulations for enhanced fluid flow and heat transfer with performance analysis concerning velocity, pressure, and turbulence in automotive, HVAC, and industrial applications.</p></Link>
         </div>
       </div>
     </>
