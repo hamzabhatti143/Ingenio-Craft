@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
         </div>
-        <div className="w-1/2 flex gap-4">
+        <div className="w-full md:w-1/2 flex gap-4 p-4 md:p-0">
             <div className="w-1/2 flex flex-col gap-4">
                 <label htmlFor="name">Full Name*</label>
                 <input type="text" name="name" id="name"  placeholder="Enter Your Full Name" className="border-black border-2 rounded p-2"
@@ -28,7 +28,7 @@ const Contact = () => {
                     required />
             </div>
         </div>
-        <div className="w-1/2 gap-4">
+        <div className="w-full md:w-1/2 gap-4 p-4 md:p-0">
             <div className="w-full flex flex-col gap-4">
                 <label htmlFor="message">Submit Your Message*</label>
                 <textarea name="message" id="message" cols={8} rows={5} 

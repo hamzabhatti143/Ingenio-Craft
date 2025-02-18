@@ -11,7 +11,7 @@ const Header = () => {
       <nav className="bg-gray-800 text-white p-4 w-full">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="text-xl font-bold w-1/4">IngenioCraft</div>
+          <div className="text-xl font-bold w-1/4">SimCad</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex w-2/4 justify-around items-center">

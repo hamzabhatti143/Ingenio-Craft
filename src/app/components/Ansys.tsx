@@ -6,18 +6,23 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './Header';
 import Footer from './Footer';
+import Head from 'next/head';
 const Ansys = () => {
     useEffect(() => {
           AOS.init();
         }, []);
   return (
     <>
+    <Head>
+        <title>Ansys Service | SimCad</title>
+        <meta name="description" content="we specialize in providing Ansys-based simulation" />
+      </Head>
       <Header />
-      <div className='w-full mt-10 gap-6 flex flex-col justify-center items-center'>
+      <div className='w-full text-white bg-gradient-to-b from-gray-800 via-yellow-500 to-white gap-6 flex flex-col justify-center items-center'>
         <h1 className='text-4xl font-bold'>Ansys Simulation Services</h1>
-        <Image src={"/images/ansys3.jpg"} alt='Ansys' data-aos="fade-up" data-aos-duration="1200" width={100} height={100} className='w-96'/>
-        <p className='p-10 space-y-4' data-aos="fade-down" data-aos-duration="1200">
-        At IngenioCraft, we specialize in providing Ansys-based simulation solutions to 
+        <Image src={"/images/ansys3.jpeg"} alt='Ansys' data-aos="fade-up" data-aos-duration="1200" width={500} height={300} className=''/>
+        <p className='p-10 space-y-4 ' data-aos="fade-down" data-aos-duration="1200">
+        At SimCad, we specialize in providing Ansys-based simulation solutions to 
         help businesses and industries achieve accurate, reliable, and efficient designs. 
         Our expertise in <strong>Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD)</strong> 
         allows us to analyze, optimize , and enhance the performance of complex engineering systems.
@@ -62,7 +67,7 @@ const Ansys = () => {
         <div className="w-1/4 flex justify-center">
             <Link
               href={"/projectsubmission"}
-              className="text-black hover:text-white  border-2 border-yellow-500 hover:bg-yellow-500 p-2 rounded-md"
+              className="text-gray-800 hover:text-white  border-2 border-yellow-500 hover:bg-yellow-500 p-2 rounded-md"
             >
               <button>Get Your Project Quote</button>
             </Link>

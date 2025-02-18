@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Header";
 import Footer from "./Footer";
+import Head from "next/head";
 
 const CFD = () => {
   useEffect(() => {
@@ -13,21 +14,24 @@ const CFD = () => {
   }, []);
   return (
     <>
+    <Head>
+        <title>CFD Service | SimCad</title>
+        <meta name="description" content="we specialize in Computational Fluid Dynamics (CFD)
+          simulations" />
+      </Head>
       <Header />
-      <div className="w-full mt-10 gap-6 flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold">
+      <div className="w-full text-white bg-gradient-to-b from-gray-800 via-yellow-500 to-white gap-6 flex flex-col justify-center items-center">
+        <h1 className="text-4xl pt-10 font-bold">
           CFD Simulation & Analysis Services
         </h1>
         <Image
           src={"/images/cfd3.png"}
           alt="CFD"
-          width={100}
-          height={100}
-          className="w-96"
+          width={500} height={300}
           data-aos="fade-up" data-aos-duration="1200"
         />
         <p className="p-10 space-y-4" data-aos="fade-down" data-aos-duration="1200">
-          At IngenioCraft, we specialize in Computational Fluid Dynamics (CFD)
+          At SimCad, we specialize in Computational Fluid Dynamics (CFD)
           simulations, providing cutting-edge solutions for fluid flow, heat
           transfer, and aerodynamic analysis. Our CFD experts help businesses
           optimize product performance, reduce energy consumption, and enhance
@@ -130,7 +134,7 @@ const CFD = () => {
         <div className="w-1/4 flex justify-center">
           <Link
             href={"/projectsubmission"}
-            className="text-black hover:text-white  border-2 border-yellow-500 hover:bg-yellow-500 p-2 rounded-md"
+            className="text-gray-800 hover:text-white  border-2 border-yellow-500 hover:bg-yellow-500 p-2 rounded-md"
           >
             <button>Get Your Project Quote</button>
           </Link>

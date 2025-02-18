@@ -10,9 +10,9 @@ const Footer = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   return (
     <>
-      <div className='bg-gray-800 w-full h-auto md:h-56 mt-4 flex flex-col md:flex-row space-x-3 space-y-4'>
+      <div className='bg-gray-800 w-full h-auto md:h-56 mt-4 flex flex-col md:flex-row space-x-0 md:space-x-3 space-y-4'>
         <div className='w-full md:w-1/3 text-white flex justify-center items-center'>
-            <h2 className='text-4xl font-bold'>Ingenio Craft</h2>
+            <h2 className='text-4xl font-bold'>SimCad</h2>
         </div>
         <div className='w-full md:w-1/3 flex justify-center items-center md:items-start flex-col gap-4'>
         <Link href={"/"} className="hover:text-yellow-500 text-white">

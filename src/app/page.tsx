@@ -5,9 +5,14 @@ import Servicecards from "./components/ServiceCards"
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+     <Head>
+        <title>SimCad</title>
+        <meta name="description" content="we deliver top-tier engineering solutions" />
+      </Head>
     <Header /> 
     <div className="bg-gray-800 h-auto md:h-[480px] flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 main text-white px-20 py-16">
@@ -25,7 +30,9 @@ export default function Home() {
       </div>
       <div className="w-full md:w-2/4 image mr-0 md:mr-4 hidden md:block">
       </div>
-      <Image src={'/images/3in1.png'} alt="3 in 1" className="w-full block md:hidden" width={100} height={100}/>
+      <div className="w-full flex items-center justify-center md:hidden">
+      <Image src={'/images/3in1.png'} alt="3 in 1"  width={500} height={300}/>
+      </div>
     </div>
 
     <Servicecards />

@@ -1,10 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from "../components/Footer";
+import Head from 'next/head';
 const page = () => {
   return (
     <>
-
+<Head>
+        <title>Contact Us</title>
+        <meta name="description" content="we deliver top-tier engineering solutions" />
+      </Head>
     <Header />
     <h1 className='text-5xl font-bold text-center mt-10'>Contact US</h1>
       <form name="contact" method="POST" data-netlify="true"  data-netlify-honeypot="bot-field"

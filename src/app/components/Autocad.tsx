@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './Header';
 import Footer from './Footer';
+import Head from 'next/head';
 
 const Autocad = () => {
     useEffect(() => {
@@ -13,12 +14,16 @@ const Autocad = () => {
     }, []);
   return (
     <>
+    <Head>
+        <title>AutoCad Service | SimCad</title>
+        <meta name="description" content="We offering detailed 2D and 3D designs" />
+      </Head>
       <Header />
-      <div className='w-full mt-10 gap-6 flex flex-col justify-center items-center'>
-        <h1 className='text-4xl font-bold'>AutoCAD Design & Drafting Services</h1>
-        <Image src={"/images/autocad3.webp"} data-aos="fade-up" data-aos-duration="1200" alt='AutoCAD' width={100} height={100} className='w-96'/>
+      <div className='w-full text-white bg-gradient-to-b from-gray-800 via-yellow-500 to-white gap-6 flex flex-col justify-center items-center'>
+        <h1 className='text-4xl font-bold p-10'>AutoCAD Design & Drafting Services</h1>
+        <Image src={"/images/autocad3.webp"} data-aos="fade-up" data-aos-duration="1200" alt='AutoCAD' width={500} height={300}/>
         <p className='p-10 space-y-4' data-aos="fade-down" data-aos-duration="1200">
-        At IngenioCraft, we provide high-quality AutoCAD design and drafting solutions to help businesses and industries create precise, optimized, and industry-compliant engineering designs. Our team of experts specializes in 2D drafting and 3D modeling, ensuring that your projects are developed with accuracy and efficiency.
+        At SimCad, we provide high-quality AutoCAD design and drafting solutions to help businesses and industries create precise, optimized, and industry-compliant engineering designs. Our team of experts specializes in 2D drafting and 3D modeling, ensuring that your projects are developed with accuracy and efficiency.
         
         <br /><br /><strong className='text-2xl font-bold'>Our AutoCAD Services</strong>
         <br /><br /><strong className='text-xl font-bold'>1. 2D CAD Drafting Services
