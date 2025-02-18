@@ -18,8 +18,9 @@ const ServiceCards = () => {
         border-2 border-yellow-500 rounded-xl hover:bg-gray-800 hover:text-white p-6 cursor-pointer'>
         <Link href={"/ansys"}>
         <h2 className='font-bold text-2xl'>Finite Element Analysis (FEA) with Ansys</h2>
-        <p className='text-lg font-medium text-justify'>
-        Incorporation of Active Design in the sport of architecture has shown to improve spatial geometry and in turn help in ease of design development.</p></Link>
+        <p className='text-lg font-medium text-justify'>Optimize your designs with precise structural analysis. 
+            Our FEA simulations help identify stress points, reduce material waste, 
+            and enhance product durability for efficient engineering solutions.</p></Link>
         </div>
 
         <div className='w-full md:w-1/3 hover:scale-95 md:hover:scale-110 space-y-0 md:space-y-4 
