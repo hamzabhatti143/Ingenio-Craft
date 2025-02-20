@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
     <Header /> 
     <div className="bg-gray-800 h-auto md:h-[480px] flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 main text-white px-20 py-16">
+      <div className="w-full md:w-1/2 main text-white px-10 md:px-20 py-8 md:py-16">
       <h5 className="italic">What we Offer?</h5>
       <h2 className="text-4xl pt-6 pb-4">We Offer <span className="span text-yellow-500"></span> Service</h2>
       <p className="text-lg">Precision Engineering & Advanced Simulations for Your Projects. Optimize, Design, and Innovate with Our Expert Solutions.</p>
